@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/chat/:path*", "destination": "https://REPLACE_WITH_RENDER_URL/chat/:path*" },
+    { "source": "/login",       "destination": "https://REPLACE_WITH_RENDER_URL/login" },
+    { "source": "/(.*)",        "destination": "/index.html" }
+  ]
+}
