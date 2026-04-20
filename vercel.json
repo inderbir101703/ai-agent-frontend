@@ -1,7 +1,7 @@
 {
   "rewrites": [
-    { "source": "/chat/:path*", "destination": "https://REPLACE_WITH_RENDER_URL/chat/:path*" },
-    { "source": "/login",       "destination": "https://REPLACE_WITH_RENDER_URL/login" },
+    { "source": "/chat/:path*", "destination": "https://ai-agent-backend-1gxm.onrender.com/chat/:path*" },
+    { "source": "/login",       "destination": "https://ai-agent-backend-1gxm.onrender.com/login" },
     { "source": "/(.*)",        "destination": "/index.html" }
   ]
 }
